@@ -5,8 +5,8 @@ public class Main
     {
         Scanner sc = new Scanner(System.in);
         double inch = sc.nextDouble();
-        double meterPerInch=0.0254;
-        double meters=meterPerInch*inch;
-        System.out.printf("%.3f",meters);
+        double meterPerInch=0.0254; //Meter Per Inch
+        double meters=meterPerInch*inch; // Multipley by Meter per Inch to INCH(Input Numbers)
+        System.out.printf("%.3f",meters); //print the meters with 3 decimal places
     }
 }
