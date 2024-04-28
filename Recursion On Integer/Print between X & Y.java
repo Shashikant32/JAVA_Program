@@ -5,11 +5,17 @@ class Main
 {
 	public static void printXY(int x,int y){
                 
-            for(int i=x; i<=y; i++)
-                {
-                    System.out.print(x + " ");
-                    x++;
-                }
+            // for(int i=x; i<=y; i++)
+            //     {
+            //         System.out.print(x + " ");
+            //         x++;
+            //     }
+        if(x>y)
+        {
+            return ;
+        }
+        System.out.print(x+ " ");
+        printXY(x+1,y);
     }
     public static void main(String args[])throws IOException
     {
