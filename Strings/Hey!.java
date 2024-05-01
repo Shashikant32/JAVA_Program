@@ -1,8 +1,6 @@
 import java.io.*;
 import java.util.*;
-
 public class Main {
-
        static String hey(String str)
         {
            StringBuilder response = new StringBuilder();
