@@ -4,13 +4,11 @@ public class Main {
 
   static int goodStrings(String s, String[] A, int n) {
        int goodCount = 0;
-
         // Create a boolean array to indicate the presence of characters in set S
         boolean[] charSet = new boolean[26];
         for (char c : s.toCharArray()) {
             charSet[c - 'a'] = true; // Mark the character as present
         }
-
         // Iterate through each string in array A
         for (String str : A) {
             boolean isGood = true;
