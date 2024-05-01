@@ -20,13 +20,11 @@ class Solution {
             stack.pop();
             k--;
         }
-        
         // Construct the result string from the remaining digits in the stack
         StringBuilder result = new StringBuilder();
         while (!stack.isEmpty()) {
             result.insert(0, stack.pop()); // Insert digits at the beginning to maintain order
         }
-        
         // Remove leading zeroes
         while (result.length() > 1 && result.charAt(0) == '0') {
             result.deleteCharAt(0);
