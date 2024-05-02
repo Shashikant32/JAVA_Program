@@ -3,7 +3,6 @@ import java.util.*;
 
 class Main
 {
-
 	public static void starPrint(int n, int star)
     {
         if(star>n)
@@ -13,7 +12,6 @@ class Main
         printStar(star);
         System.out.println();
         starPrint(n,star+1);
-        
     }
     public static void solve(int n)
     {
@@ -28,7 +26,6 @@ class Main
         printStar(count-1);
         System.out.print("* ");
     }
-	
     public static void main(String args[])throws IOException
     {
         Scanner sc = new Scanner(System.in);
