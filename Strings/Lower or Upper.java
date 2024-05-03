@@ -1,15 +1,13 @@
 import java.util.*;
 
 public class Main {
-    public static char LowerUpper(char ch) {
-        //Write your code here
-        
+    public static char LowerUpper(char ch) {    
         if(ch>='a' && ch<='z')
         {
             return 'L';
         }
         
-             return 'U';
+            return 'U';
        
     }
 
