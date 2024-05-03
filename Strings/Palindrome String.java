@@ -4,11 +4,10 @@ import java.util.*;
 public class Main {
 	static int isPalindrome(String str)
       {
-           str = str.toLowerCase();
+        str = str.toLowerCase();
         
         int left = 0;
-        int right = str.length() - 1;
-        
+        int right = str.length() - 1; 
         while (left < right) {
             while (left < right && !Character.isLetter(str.charAt(left))) {
                 left++;
