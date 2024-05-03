@@ -5,7 +5,6 @@ public class Main {
      public  static void isPangram(String s)
       {
           boolean isPresent[]= new boolean[26];
-
           int n = s.length();
           for(int i=0; i<n; i++)
               {
