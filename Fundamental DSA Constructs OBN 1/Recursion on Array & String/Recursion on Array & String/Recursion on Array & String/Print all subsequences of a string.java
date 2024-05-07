@@ -18,7 +18,6 @@ public class Main{
         //option two --> nahi jayega
 
         helper(s,i+1,ans);
-        
     }
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
