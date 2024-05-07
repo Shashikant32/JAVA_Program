@@ -12,7 +12,6 @@ public class Main {
         sc.close();
         System.out.println(recforMin(arr, 0));
     }
-
 	public static int recforMin(int[] arr, int idx) {
         if(idx==arr.length-1)
         {
@@ -20,7 +19,6 @@ public class Main {
         }
         // int currElement = arr[idx];
         // int restofThemain=recforMin(arr,idx+1);
-
         // return Math.min(currElement,restofThemain);
          return Math.min(arr[idx],recforMin(arr,idx+1));//diract return
         
