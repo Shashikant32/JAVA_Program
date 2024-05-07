@@ -11,7 +11,6 @@ class Main {
 		int T = s.nextInt();
 		System.out.println(lastIndex(A, T, N-1));
 	}
-
 	static int lastIndex(int A[],int T,int startIndex)
 	{
 		if(startIndex < 0) //if(startIndex==-1)
