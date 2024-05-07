@@ -18,7 +18,6 @@ public class Main {
         // int curr=arr[n-1];
         // int sum=sumofArrayRec(arr,n-1);
         // return curr+sum;
-
         return arr[n-1]+sumofArrayRec(arr,n-1);
         
     }
