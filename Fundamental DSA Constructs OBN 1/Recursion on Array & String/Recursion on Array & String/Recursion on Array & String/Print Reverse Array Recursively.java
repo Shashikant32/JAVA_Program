@@ -11,7 +11,6 @@ public class Main {
             arr[i] = sc.nextInt();
         PrintReverseArray(arr, n);
     }
-
 	public static void PrintReverseArray(int[] arr, int n) {
         if(n==0)
         {
