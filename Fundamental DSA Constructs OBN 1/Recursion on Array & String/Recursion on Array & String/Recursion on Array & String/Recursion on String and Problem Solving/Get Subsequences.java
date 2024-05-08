@@ -19,7 +19,6 @@ public class Main {
              
             }
             return;
-           
         }
         // optinon one --> jayega
         helper(str,i+1,ans,curr+str.charAt(i));
@@ -27,8 +26,6 @@ public class Main {
         helper(str,i+1,ans,curr);
     }
 
-    
-	
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s;
