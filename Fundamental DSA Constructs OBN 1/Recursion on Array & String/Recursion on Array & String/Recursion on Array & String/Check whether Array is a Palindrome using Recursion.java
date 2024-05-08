@@ -11,13 +11,11 @@ public class Main {
        
         System.out.println(isPalindrome(arr, n));
     }
-
 	public static boolean isPalindrome(int[] arr, int n) {
          return  helper(arr,0,n-1);
     }
     static boolean helper(int[] arr, int s,int e)
     {
-
         if(s>=e)
         {
             return true;
