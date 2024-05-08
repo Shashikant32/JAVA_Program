@@ -22,7 +22,6 @@ class Main {
 		helper(keys,0,ans,"");
         return ans;
     }
-	
 	public static void main(String[] args) throws Throwable {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
