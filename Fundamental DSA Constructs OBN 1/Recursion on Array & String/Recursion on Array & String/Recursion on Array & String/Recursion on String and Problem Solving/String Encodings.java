@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class Main {
     public static void printEncodings(String str) {
         helper(str,0,"");
