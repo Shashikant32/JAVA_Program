@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class Main {
 	static int sumOfDigi(int n) {
          if (n < 10) {
