@@ -11,7 +11,6 @@ public class Main {
             return 1+ countX(str,i+1,n);
         }
         return countX(str,i+1,n);
-
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
