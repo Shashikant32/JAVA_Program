@@ -5,7 +5,6 @@ public class Main {
         if (i >= str.length() - 2)
             return 0;
 
-        
         if (str.substring(i, i + 3).equals("abc") || str.substring(i, i + 3).equals("aba")) {
             return 1 + CountABC(str, i + 1);
         } else {
