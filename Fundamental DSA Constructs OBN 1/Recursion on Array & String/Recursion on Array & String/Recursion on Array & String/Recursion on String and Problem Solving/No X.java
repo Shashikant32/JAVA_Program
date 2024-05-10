@@ -14,7 +14,6 @@ public class Main {
         } else {
             return firstChar + noX(s.substring(1));
         }
-        
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
