@@ -2,7 +2,6 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Main {
-
     static boolean isPalindrome(String str){
         if(str.length()<=1)
         {
