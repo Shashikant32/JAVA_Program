@@ -18,7 +18,6 @@ public class Main {
             printKPC(ques.substring(1), outputSoFar + ch);
         }
     }
-
     public static void printKPC(String ques) {
         printKPC(ques, "");
     }
