@@ -11,13 +11,11 @@ public class Main {
       {
           return;
       }
-
         //horizontal(i,j)->(i,j+1)
         aMazePaths(n,m,psf+"h",i,j+1);
         
         //vertical(i,j)->(i+1,j)
         aMazePaths(n,m,psf+"v",i+1,j);
-		
     }
 	
     public static void main(String[] args) throws Exception {
