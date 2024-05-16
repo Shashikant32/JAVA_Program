@@ -21,11 +21,9 @@ class Solution{
             
             result = (result + countOnes * countZeros * 2) % MOD;
         }
-
         return (int) result;
     }
 }
-
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
