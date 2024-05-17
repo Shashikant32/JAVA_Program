@@ -3,7 +3,6 @@ import java.lang.*;
 import java.util.*;
 
 class Main {
-
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int t = sc.nextInt();
@@ -14,7 +13,6 @@ class Main {
       t--;
     }
   }
-
   public static int countWords(String s) {
     int count=0;
       int n= s.length();
