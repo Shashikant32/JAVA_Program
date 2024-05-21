@@ -10,7 +10,6 @@ class Accio {
         int robSecondToLast = robLinear(arr, 1, arr.length - 1);
         return Math.max(robFirstToSecondLast, robSecondToLast);
     }
-
     private int robLinear(int[] nums, int start, int end) {
         int prev1 = 0, prev2 = 0;
         for (int i = start; i <= end; i++) {
