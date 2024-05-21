@@ -10,7 +10,6 @@ class Solution{
         for (int i = 0; i < 31; i++) {
             long countOnes = 0;
             long countZeros = 0;
-            // Count number of set and unset bits at current bit position
             for (int j = 0; j < n; j++) {
                 if ((A[j] & (1 << i)) > 0) {
                     countOnes++;
