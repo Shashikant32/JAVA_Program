@@ -12,7 +12,6 @@ class Solution {
                 arr[index] = -arr[index];
             }
         }
-        
         Collections.sort(result);
         for (int num : result) {
             System.out.print(num + " ");
