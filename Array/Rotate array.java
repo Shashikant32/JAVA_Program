@@ -9,7 +9,6 @@ public class Main {
             k = n + k;
         }
         k = k % n;
-        
         int[] temp = new int[n];
         
         for (int i = 0; i < n; i++) {
