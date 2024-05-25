@@ -30,7 +30,6 @@ class Solution {
         return true;
     }
 }
-
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -46,7 +45,6 @@ public class Main {
             }
             rooms.add(keys);
         }
-        
         // Create an instance of the Solution class
         Solution obj = new Solution();
         
