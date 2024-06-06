@@ -75,10 +75,8 @@ public class Main {
                 Node temp = new Node(x);
                 l.addToTheLast(temp);
             }
-
             lists.add(l.head);
         }
-
         Node ans = kSortedlist(lists);
 
         while (ans != null) {
