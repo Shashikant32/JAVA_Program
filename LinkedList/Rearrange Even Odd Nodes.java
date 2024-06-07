@@ -77,7 +77,6 @@ class Solution {
        return (evenHead != null) ? evenHead : oddHead;
     }
 }
-
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
