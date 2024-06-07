@@ -9,7 +9,6 @@ class Node{
         next = null;
     }
 }
-
 class LinkedList{
     Node head;
 
