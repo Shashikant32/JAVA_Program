@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Autori {
 	static String autori(String str){
         String ans="";
         for(int i=0; i<str.length(); i++)
