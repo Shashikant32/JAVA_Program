@@ -30,7 +30,6 @@ class Solution {
     public Solution() {
         intervals = new ArrayList<>();
     }
-
     public void addNum(int val) {
         List<int[]> newIntervals = new ArrayList<>();
         int[] newInterval = new int[] {val, val};
