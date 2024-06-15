@@ -18,7 +18,6 @@ public class Main {
         }
         return firstIndex;
     }
-    
     public static int lastIndex(int[] arr, int n, int key) {
         int s = 0;
         int e = n - 1;
