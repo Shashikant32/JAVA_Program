@@ -38,4 +38,4 @@ class Main {
         arr[i] = sc.nextInt();
         System.out.println(Solution.findMin(arr, 0, n - 1));
     }
-}
+}yyy
