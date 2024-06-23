@@ -29,7 +29,6 @@ class LinkedList{
             head = new_node;
             return;
         }
-        
         Node curr = head;
         while(curr.next != null) {
             curr = curr.next;
