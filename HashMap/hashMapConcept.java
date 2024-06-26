@@ -2,7 +2,6 @@ import java.util.HashMap;
 
 class Main {
     public static void main(String[] args) {
-        // Create a HashMap
         HashMap<String, Integer> scoreCard = new HashMap<>();
 
         scoreCard.put("Rohit",50);
@@ -13,6 +12,7 @@ class Main {
         System.out.println(scoreCard.get("Rohit"));
 
         System.out.println(scoreCard.get("Bumrah"));
+
         //while dealing with hashmaps make sure key that is present other wise key is NULL;
         // if(scoreCard.containsKey("Bumrah"))
         // {
