@@ -64,8 +64,6 @@ class Main {
             sc.close();			
 	}
 }
-  
-
 
 class Solution{
     public static Node findPath(Node root, int start, ArrayList<Integer> path)
