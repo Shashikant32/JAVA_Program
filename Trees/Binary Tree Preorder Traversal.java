@@ -59,16 +59,12 @@ class Main {
 			Node root = buildTree(s);
 			Solution tree = new Solution();
 			  tree.preorderTraversal(root);
-            
 		
 	}
 }
-  
-
 
 class Solution {
 
-	
 
 	public static void preorderTraversal(Node root) {
 		if (root == null) {
