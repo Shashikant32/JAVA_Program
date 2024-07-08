@@ -4,7 +4,6 @@ import java.io.*;
 import java.util.*;
 
 class Main {
-
     static Node buildTree(String str) {
         if (str.length() == 0 || str.charAt(0) == 'N') {
             return null;
