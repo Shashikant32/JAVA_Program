@@ -45,7 +45,6 @@ public class Main {
 
         return root;
     }
-
     // Decodes your encoded data to tree.
     public static TreeNode deserialize(String str) {
         String[] preOrderSplit = str.split(",");
