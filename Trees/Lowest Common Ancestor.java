@@ -61,22 +61,17 @@ class Solution {
     public static Node findLCA(Node node, int n1, int n2) {
         if (node == null) return null;
 
-        // If either n1 or n2 matches with root's key, return the root
         if (node.data == n1 || node.data == n2) {
             return node;
         }
 
-        // Look for keys in left and right subtrees
         Node leftLCA = findLCA(node.left, n1, n2);
         Node rightLCA = findLCA(node.right, n1, n2);
 
-        // If both of the above calls return non-null, then one key is present in one subtree
-        // and the other is present in the other subtree. So, this node is the LCA
         if (leftLCA != null && rightLCA != null) {
             return node;
         }
 
-        // Otherwise check if left subtree or right subtree has LCA
         return (leftLCA != null) ? leftLCA : rightLCA;
     }
 }
