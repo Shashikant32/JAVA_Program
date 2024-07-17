@@ -39,7 +39,6 @@ class Solution {
         if (seenValues.contains(complement)) {
             return true;
         }
-        // Add the current node's value to the set
         seenValues.add(node.val);
 
         // Check the right subtree
