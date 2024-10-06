@@ -25,4 +25,4 @@ public class Main {
             System.out.print(Solution.series(n));
         }
     }
-}
+} 
