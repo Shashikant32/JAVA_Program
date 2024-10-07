@@ -1,5 +1,4 @@
 import java.util.*;
-
 class Solution {
     static String minString(String str, String K) {
         StringBuilder sb = new StringBuilder(str);
@@ -12,7 +11,6 @@ class Solution {
         return sb.toString();
     }
 }
-
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
