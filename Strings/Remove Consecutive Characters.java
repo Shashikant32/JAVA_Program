@@ -14,7 +14,6 @@ class Solution {
                 stack.push(new int[] {c, 1});
             }
         }
-        
         StringBuilder result = new StringBuilder();
         for (int[] entry : stack) {
             char character = (char) entry[0];
@@ -27,7 +26,6 @@ class Solution {
         return result.toString();
     }
 }
-
 class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
