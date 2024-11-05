@@ -6,5 +6,5 @@ public class Main {
         
         String str = scanner.nextLine();
         System.out.print("My name is "+ str +". I like to code.");
-    }
+    }
 }
