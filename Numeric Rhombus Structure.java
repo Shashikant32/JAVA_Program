@@ -25,7 +25,6 @@ class Solution {
                 System.out.print(" ");
             }
 
-            // Print decreasing numbers
             for (int j = i; j >= 1; j--) {
                 System.out.print(j);
             }
